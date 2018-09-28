@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>在线笔记</title>
+    <title>在线笔记项目</title>
     <link href="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,7 +12,7 @@
 
     <h4 class="ui horizontal divider header"><i class="leanpub icon"></i> Notes App_Vue.js </h4>
 
-    <button class="ui blue button" @click="add">添加笔记</button>
+    <button class="ui blue button" @click="add">添加笔记项目</button>
 
     <note v-for="(note,index) in notes" :todo="note" :key="index"></note>
 
